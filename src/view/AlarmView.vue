@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h3>ALARM</h3>
+    <h3>ALARM!!!!</h3>
   </div>
 </template>
 
@@ -8,5 +8,4 @@
 export default {};
 </script>
 
-<style>
-</style>
+<style></style>
