@@ -1,19 +1,29 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
-import DeviceMonitoringView from '../view/DeviceMonitoringView';
-import TagMonitoringView from '../view/TagMonitoringView';
+import DeviceView from '../view/DeviceView';
+import TagView from '../view/TagView';
+import AlarmView from '../view/AlarmView';
+import EventView from '../view/EventView';
 Vue.use(VueRouter);
 
 const router = new VueRouter({
   mode: 'history',
   routes: [
     {
-      path: '/devicemonitoring',
-      component: DeviceMonitoringView,
+      path: '/device',
+      component: DeviceView,
     },
     {
-      path: '/tagmonitoring',
-      component: TagMonitoringView,
+      path: '/tag',
+      component: TagView,
+    },
+    {
+      path: '/alarm',
+      component: AlarmView,
+    },
+    {
+      path: '/event',
+      component: EventView,
     },
   ],
 });

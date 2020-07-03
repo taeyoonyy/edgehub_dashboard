@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+    <g fill="none" fill-rule="evenodd">
+        <rect width="28" height="28" fill="#8092AE" rx="4"/>
+        <g fill="#FFF">
+            <path fill-opacity=".5" d="M5.294 0H15V9.706H5.294z" transform="translate(6 7)"/>
+            <path stroke="#8092AE" d="M-0.5 4.794H10.206V15.5H-0.5z" transform="translate(6 7)"/>
+        </g>
+    </g>
+</svg>

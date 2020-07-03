@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>DEVICE MONITORING</h1>
+    <h3>DEVICE MONITORING</h3>
     <form @submit.prevent="submitForm">
       <!-- <button type="submit">GET DEVICE LIST</button> -->
       <p>Device count: {{ deviceInformation.length }}</p>

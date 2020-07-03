@@ -8,13 +8,30 @@
   padding: 10px;
 }
 
+.logo {
+  margin-bottom: 10px;
+}
+
+.logo img {
+  margin-top: -5px;
+  margin-right: 10px;
+  height: 17px;
+}
+
+.logo .lsLogo {
+  float: right;
+  height: 16px;
+}
+
 .divider {
   border-bottom: 1.5px solid #434c59;
-  margin-top: 20px;
+  margin-top: 5px;
   margin-bottom: 20px;
 }
 
-h1 {
+h1,
+h2,
+h3 {
   font-family: NotoSansKR-Bold;
 }
 

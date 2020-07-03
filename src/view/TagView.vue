@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>TAG MONITORING</h1>
+    <h3>TAG MONITORING</h3>
     <form @submit.prevent="getTagList">
       <!-- <button type="submit">TAG LIST</button> -->
       <p>Tag count: {{ deviceInformation.length }}</p>
@@ -35,10 +35,6 @@ export default {
       checkedTag: "",
       selectedGraph: "",
       refreshInterval: "",
-      graphList: [
-        { key: "line", text: "Line" },
-        { key: "bar", text: "Bar" }
-      ],
       fontSize: 20,
       graphType: "line"
     };
